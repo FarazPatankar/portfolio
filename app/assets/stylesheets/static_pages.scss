@@ -1,0 +1,53 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// .intro-div {
+// 	display: table-cell;
+// 	vertical-align: middle;
+// }
+
+.intro-div {
+	height: 500px;
+}
+
+.name {
+    font-weight: 800;
+    color: #000;
+    line-height: 72px;
+    font-size: 62px;
+}
+
+.typed {
+    border-bottom: 1px solid #fff;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    color: #000;
+}
+
+/*Auto Typing CSS*/
+.typed-cursor {
+    color: #000;
+    font-size: 30px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+/*Auto Typing CSS*/
